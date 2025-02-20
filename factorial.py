@@ -1,4 +1,5 @@
 # Factorial of a number provided by the user
+import sys
 
 def factorial(num):
     factorial = 1
@@ -15,6 +16,8 @@ def factorial(num):
 try:
     # input from user
     num = int(input("Enter a number: "))
-    print("The factorial of", num ,"is", factorial(num))
 except ValueError:
     print("Enter a valid number")
+    sys.exit(1)
+    
+print("The factorial of", num ,"is", factorial(num))
