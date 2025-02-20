@@ -1,5 +1,5 @@
 # Check if a number is prime or not
-import math
+import math, sys
 
 def is_prime(num):
     if num <= 1:
@@ -13,6 +13,8 @@ def is_prime(num):
 
 try:
     num = int(input("Enter a number: "))
-    print(f"{num} is " + ("" if is_prime(num) else "not ") + "prime")
 except ValueError:
     print("Enter a valid number")
+    sys.exit(1)
+
+print(f"{num} is " + ("" if is_prime(num) else "not ") + "prime")
