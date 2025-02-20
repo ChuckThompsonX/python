@@ -1,6 +1,8 @@
 import requests
 from pprint import pprint
 
+# pip install requests
+
 def api_call():
     try:
         # make API call
