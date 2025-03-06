@@ -8,7 +8,7 @@ try:
         host="localhost",
         database="ecommerce",
         user="postgres",
-        password="secret"
+        password="xxxxxxxxx"
     )
     
     # establish cursor enabling traversal and manipulation of records
