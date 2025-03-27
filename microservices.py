@@ -1,5 +1,5 @@
 '''
-This is a basic Python microservice using Flask. It includes a profile check, greet request handling, 
+Basic Python microservice using Flask. Includes a profile check, greet request handling, 
 and POST request processing. A production microservice would involve adding more complex logic, 
 database interaction, error handling, and potentially using a message broker (e.g. RabbitMQ, 
 Kafka, Redis, etc.) for inter-service communication.
