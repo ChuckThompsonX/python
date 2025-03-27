@@ -44,8 +44,6 @@ def loops():
     for key, value in my_dict.items():
         print(f"Key: {key}, Value: {value}")
 
-    # while loop executes a block of code as long as a condition is true
-        
     # simple while loop
     count = 0
     while count < 5:
