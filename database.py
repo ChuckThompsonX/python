@@ -11,7 +11,7 @@ try:
         password="xxxxxxxxx"
     )
     
-    # establish cursor enabling traversal and manipulation of records
+    # cursor enabling traversal and manipulation of records
     cursor = connection.cursor()
     print("Connection successful!")
     
