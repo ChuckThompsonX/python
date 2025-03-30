@@ -3,7 +3,7 @@ def loops():
     # for loop iterates over a sequence (such as a list, tuple, string, or range) or other iterable objects
     
     # iterating through a list
-    my_list = [1, 2, 3, 4, 5]
+    my_list = [2, 4, 6, 8]
     for item in my_list:
         print(item)
 
