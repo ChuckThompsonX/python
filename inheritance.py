@@ -19,7 +19,7 @@ class Cat(Animal):
         return "Meow"
 
 animal = Animal("Animal")
-dog = Dog("Sam", "German Shepherd")
+dog = Dog("Max", "German Shepherd")
 cat = Cat("Basil", "Domestic Short Haired")
 
 print(animal.name + ": " + animal.sound())
