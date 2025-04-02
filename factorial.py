@@ -10,7 +10,7 @@ def factorial(num):
         print("The factorial of 0 is 1")
     else:
         for i in range(1, num + 1):
-            factorial = factorial * i
+            factorial *= i
     return factorial
 
 try:
