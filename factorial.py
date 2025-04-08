@@ -17,7 +17,7 @@ try:
     # input from user
     num = int(input("Enter a number: "))
 except ValueError:
-    print("Enter a valid number")
+    print("Value entered was not a valid number")
     sys.exit(1)
     
 print("The factorial of", num ,"is", factorial(num))
