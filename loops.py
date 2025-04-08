@@ -23,7 +23,7 @@ def loops():
         print(i)
 
     # using pass
-    for i in range(5):
+    for i in range(1, 6):
         if i == 2:
             pass # do nothing when i is 2
         else:
