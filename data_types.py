@@ -19,8 +19,8 @@ x = None								                      #NoneType
 '''
 4 built-in data types used to store collections of data: List, Tuple, Set, and Dictionary
 
-List: ordered, changeable, allow duplicates, indexed, []
-Tuple: ordered, UNCHANGEABLE, allow duplicates, indexed, ()
-Set: unordered, unchangeable, NO DUPS, unindexed, {}
-Dictionary: ordered, changeable, no dups, KEY:VALUE PAIRS, unindexed, {}
+List: ordered - indexed, changeable, allow duplicates, []
+Tuple: ordered - indexed, UNCHANGEABLE, allow duplicates, ()
+Set: unordered - unindexed, unchangeable, NO DUPS, {}
+Dictionary: ordered - unindexed, changeable, no dups, KEY:VALUE PAIRS, {}
 '''
