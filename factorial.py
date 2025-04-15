@@ -1,4 +1,4 @@
-# Factorial of a number provided by the user
+# factorial of a number provided by the user
 import sys
 
 def factorial(num):
