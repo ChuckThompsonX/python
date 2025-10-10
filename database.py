@@ -33,6 +33,7 @@ except psycopg2.Error as e:
 
 finally:
     if connection:
+        # close resources
         cursor.close()
         connection.close()
         print("PostgreSQL connection is closed")
